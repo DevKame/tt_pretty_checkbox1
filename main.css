@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Museo";
+    src: url("./MuseoModerno-Regular.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Museo", sans-serif;
+}
+
+body {
+    background-color: #955050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0 0 0;
+}
+#wrapper {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
